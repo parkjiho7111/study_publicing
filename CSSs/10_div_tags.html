@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>This is a title</title>
+  <style>
+    div {
+      padding-top: 20px;
+      background-color: rgb(113, 113, 221);
+      text-align: left;
+    }
+
+    .first-background {
+      padding-top: 20px;
+      background-color: rgb(24, 24, 243);
+      text-align: left;
+    }
+
+    span {
+      padding-left: 40px;
+      background-color: rgb(231, 126, 231);
+      border: 2px solid red;
+    }
+      #second-border {
+      padding-left: 40px;
+      background-color: rgb(231, 126, 231);
+      border: 2px solid rgb(16, 231, 113);
+    }
+  </style>
+</head>
+
+<body>
+  01Hello world!
+  <div class="first-background">02Hello world! 
+    <span>07Hello world!</span>
+  </div>
+  <div>03Hello world!
+    <span>04Hello world!</span>
+    <div class="first-background">05Hello world!
+       <span id="second-border">06Hello world!</span></div>
+    
+  </div>
+</body>
+
+</html>
